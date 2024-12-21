@@ -2,7 +2,7 @@ const expectedApiResponse = {
     "name": "aya",
     "department": "Software Development"
 }
-describe('Testing Asynchronous Code', () => {
+describe('jest Asynchronous Code', () => {
     function fetchData() {
         return fetch('http://127.0.0.1:8081/data.json').then(res => res.json()).then((data) => data);
     }

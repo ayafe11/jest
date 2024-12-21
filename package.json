@@ -8,6 +8,9 @@
     "start-server": "http-server  ./src/__tests__/ --port 8081 ",
     "build": "webpack --config webpack.config.js --mode development --watch"
   },
+  "jest": {
+    "testPathIgnorePatterns": ["src/__tests__/users.js"]
+  },
   "private": true,
   "dependencies": {
     "lodash": "^4.17.21",
