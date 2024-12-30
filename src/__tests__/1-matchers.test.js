@@ -7,8 +7,8 @@ describe('Jest Matchers', () => {
     });
 //**Object Equality**//
     test('object equality', () => {
-        object1 = {name: "aya", age: 34};
-        object2 = {name: "aya", age: 34};
+        const object1 = {name: "aya", age: 34};
+        const object2 = {name: "aya", age: 34};
         expect(object1).toEqual(object2);
     })
 //**Truthiness**//
